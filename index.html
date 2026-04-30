@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div>
+            <p class = "title">
+                Sorteador de números
+            </p>
+                
+            </div>
+    </header>
+
+    <main>
+        <div id = "principal-container">
+            <div class = "div-pergunta-usuario">
+                <p id = "p-pergunta--usuario">Escolha seu número entre 1 e 59 </p>
+
+                <input type="text" placeholder = "Digite seu número aqui" id = "input-pergunta-usuario">
+
+                <button id = "verificar" onclick="catchUserValue()"><img class = "enviar" src = "enviar.png"></button>
+            </div>
+                
+                <div class = "valor-comp">
+                    <p>
+                         O número gerado é:
+                    </p>
+                
+                    <p id = "valor-comp">
+                          
+                    </p>
+                </div>
+
+            <p>
+                Seu resultado é: 
+            </p>
+
+            <p id = "result-final">
+                 
+            </p>
+
+            <button onclick = "limpar()" >Limpar tudo</button>
+    </div>
+
+    </main>
+
+    <footer>
+        <ul class = "lista-links">
+            <li class = "lista-links link-github">
+                <a href = "https://github.com/PedroDVasconcelos" >GitHub</a>
+            </li>
+            <li class = "lista-links link-linkedin">
+                <a href = "https://www.linkedin.com/in/pedro-vasconcelos-59059238b/">Linkedin</a>
+            </li>
+            <li>
+                <p>
+                    feito por <i>Pedro Vasconcelos</i>
+                </p>
+            </li>
+        </ul>
+    </footer>
+
+    
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
