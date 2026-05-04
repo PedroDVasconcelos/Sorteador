@@ -7,7 +7,7 @@
 
     //pegando os elementos do html
     const valor_Usu_Input = document.getElementById("input-pergunta-usuario");
-    const elementoComp = document.getElementById("valor-comp");
+    const elementoComp = document.getElementById("p-valor-comp");
     const elementoResultado = document.getElementById("result-final");
 
     //função para pegar o valor do usuário

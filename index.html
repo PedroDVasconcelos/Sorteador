@@ -17,35 +17,43 @@
     </header>
 
     <main>
-        <div id = "principal-container">
-            <div class = "div-pergunta-usuario">
-                <p id = "p-pergunta--usuario">Escolha seu número entre 1 e 59 </p>
+        <section id = "sec-principal">
+            <div id = "principal-container">
+                <div class = "div-pergunta-usuario">
+                    <p id = "p-pergunta--usuario">Escolha seu número entre 1 e 59 </p>
 
-                <input type="text" placeholder = "Digite seu número aqui" id = "input-pergunta-usuario">
+                    <div class = "div-limpar">
+                        <button id = "limpar" onclick = "limpar()" ><img src="lixo.png"></button>
+                    </div>
 
-                <button id = "verificar" onclick="catchUserValue()"><img class = "enviar" src = "enviar.png"></button>
-            </div>
-                
-                <div class = "valor-comp">
-                    <p>
-                         O número gerado é:
-                    </p>
-                
-                    <p id = "valor-comp">
-                          
-                    </p>
+                    <input type="text" placeholder = "Digite seu número aqui" id = "input-pergunta-usuario">
+
+                    
+                    <button id = "verificar" onclick="catchUserValue()"><img class = "enviar" src = "enviar.png"></button>
                 </div>
+                    
+                    <section id = "sec-secundaria">
+                        <div class = "valor-comp">
+                            <h3 class = "h3-valor-comp">
+                                O número gerado é:
+                            </h3>
+                        
+                            <p id = "p-valor-comp">
+                                
+                            </p>
+                        </div>
+                        <div class = "div-resultado-final">
+                            <p>
+                                Seu resultado é: 
+                            </p>
 
-            <p>
-                Seu resultado é: 
-            </p>
-
-            <p id = "result-final">
-                 
-            </p>
-
-            <button onclick = "limpar()" >Limpar tudo</button>
-    </div>
+                            <p id = "result-final">
+                                
+                            </p>
+                        </div>
+                    </section>
+            </div>
+        </section>
 
     </main>
 
